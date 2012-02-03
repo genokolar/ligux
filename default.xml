@@ -252,11 +252,6 @@
 	<project path="vendor/akm" name="vendor_akm" remote="ligux" revision="ics"/>
 	<project path="vendor/broadcom" name="vendor_broadcom" remote="ligux" revision="ics"/>	
 	<project path="vendor/cm" name="vendor_cm" remote="ligux" revision="ics"/>
-	<project path="vendor/imgtec" name="vendor_imgtec" remote="ligux" revision="ics"/>
-	<project path="vendor/moto" name="vendor_moto" remote="ligux" revision="ics"/>
-	<project path="vendor/nvidia" name="vendor_nvidia" remote="ligux" revision="ics"/>
-	<project path="vendor/nxp" name="vendor_nxp" remote="ligux" revision="ics"/>
-	<project path="vendor/samsung" name="vendor_samsung.git" remote="ligux" revision="ics"/>
   	<project path="sdk" name="CyanogenMod/android_sdk" />
 	<project path="system/bluetooth" name="system_bluetooth" remote="ligux" revision="ics"/>
 	<project path="system/core" name="system_core" remote="ligux" revision="ics"/>
