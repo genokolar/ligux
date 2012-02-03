@@ -10,7 +10,7 @@ familiar with [Git and Repo](http://source.android.com/download/using-repo).
 
 To initialize your local repository using the Ligux trees, use a command like this:
 
-    repo init -u git://github.com/geno/ligux.git -b ics
+    repo init -u git://github.com/genokolar/ligux.git -b ics
 
 Then to sync up:
 
