@@ -25,6 +25,7 @@
 	<project path="bootable/recovery" name="bootable_recovery" remote="ligux"/>	
 	<project path="dalvik" name="dalvik" remote="ligux"/>
 	<project path="development" name="development" remote="ligux"/>
+        <project path="device/common" name="device_common" remote="ligux"/>
 	<project path="device/htc/common" name="device_htc_common" remote="ligux"/>
   <project path="external/alsa-lib" name="CyanogenMod/android_external_alsa-lib" />
   <project path="external/alsa-utils" name="CyanogenMod/android_external_alsa-utils" />
