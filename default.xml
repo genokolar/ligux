@@ -16,17 +16,17 @@
 		remote="github"
 		sync-j="4" />
 
-  	<project path="build" name="build" remote="ligux" revision="ics">
+  	<project path="build" name="build" revision="ics">
 		<copyfile src="core/root.mk" dest="Makefile" />
 	</project>
 
   	<project path="abi/cpp" name="platform/abi/cpp" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   	<project path="bionic" name="CyanogenMod/android_bionic" />
-	<project path="bootable/bootloader/legacy" name="bootable_bootloader_legacy" remote="ligux" revision="ics"/>
-	<project path="bootable/diskinstaller" name="bootable_diskinstaller" remote="ligux" revision="ics"/>
-	<project path="bootable/recovery" name="bootable_recovery" remote="ligux" revision="ics"/>
-	<project path="dalvik" name="dalvik" remote="ligux" revision="ics"/>
-	<project path="development" name="development" remote="ligux" revision="ics">
+	<project path="bootable/bootloader/legacy" name="bootable_bootloader_legacy" revision="ics"/>
+	<project path="bootable/diskinstaller" name="bootable_diskinstaller" revision="ics"/>
+	<project path="bootable/recovery" name="bootable_recovery"  revision="ics"/>
+	<project path="dalvik" name="dalvik" revision="ics"/>
+	<project path="development" name="development" revision="ics">
 		<copyfile src="ide/eclipse/.classpath" dest=".classpath"/>
 		<copyfile src="ide/eclipse/android-formatting.xml" dest="android-formatting.xml"/>
 		<copyfile src="ide/eclipse/android.importorder" dest="android.importorder"/>
@@ -174,19 +174,19 @@
 	<project path="frameworks/opt/mailcommon" name="frameworks_opt_mailcommon" remote="ligux" revision="ics"/>
 	<project path="frameworks/opt/vcard" name="frameworks_opt_vcard" remote="ligux" revision="ics"/>
 	<project path="frameworks/support" name="frameworks_support" remote="ligux" revision="ics"/>
-	<project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" remote="ligux" revision="ics"/>
-	<project path="hardware/cm" name="hardware_cm" remote="ligux" revision="ics"/>
-	<project path="hardware/invensense" name="hardware_invensense" remote="ligux" revision="ics"/>
-	<project path="hardware/libhardware" name="hardware_libhardware" remote="ligux" revision="ics"/>
-	<project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="ligux" revision="ics"/>
-	<project path="hardware/msm7k" name="hardware_msm7k" remote="ligux" revision="ics"/>
-	<project path="hardware/qcom/display" name="hardware_qcom_display" remote="ligux" revision="ics"/>
-	<project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="ligux" revision="ics"/>
-	<project path="hardware/qcom/media" name="hardware_qcom_media" remote="ligux" revision="ics"/>
-	<project path="hardware/ril" name="hardware_ril" remote="ligux" revision="ics"/>
-	<project path="hardware/ti/omap3" name="hardware_ti_omap3" remote="ligux" revision="ics"/>
-	<project path="hardware/ti/omap4xxx" name="hardware_ti_omap4xxx" remote="ligux" revision="ics"/>
-	<project path="hardware/ti/wlan" name="hardware_ti_wlan" remote="ligux" revision="ics"/>
+	<project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" revision="ics"/>
+	<project path="hardware/cm" name="hardware_cm" revision="ics"/>
+	<project path="hardware/invensense" name="hardware_invensense" revision="ics"/>
+	<project path="hardware/libhardware" name="hardware_libhardware" revision="ics"/>
+	<project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" revision="ics"/>
+	<project path="hardware/msm7k" name="hardware_msm7k" revision="ics"/>
+	<project path="hardware/qcom/display" name="hardware_qcom_display" revision="ics"/>
+	<project path="hardware/qcom/gps" name="hardware_qcom_gps" revision="ics"/>
+	<project path="hardware/qcom/media" name="hardware_qcom_media" revision="ics"/>
+	<project path="hardware/ril" name="hardware_ril" revision="ics"/>
+	<project path="hardware/ti/omap3" name="hardware_ti_omap3" revision="ics"/>
+	<project path="hardware/ti/omap4xxx" name="hardware_ti_omap4xxx" revision="ics"/>
+	<project path="hardware/ti/wlan" name="hardware_ti_wlan" revision="ics"/>
 	<project path="libcore" name="CyanogenMod/android_libcore" />
 	<project path="ndk" name="CyanogenMod/android_ndk" />
 	<project path="packages/apps/BasicSmsReceiver" name="packages_apps_BasicSmsReceiver" remote="ligux" revision="ics"/>
@@ -249,17 +249,17 @@
 	<project path="packages/wallpapers/NoiseField" name="packages_wallpapers_NoiseField" remote="ligux" revision="ics"/>
 	<project path="packages/wallpapers/PhaseBeam" name="packages_wallpapers_PhaseBeam" remote="ligux" revision="ics"/>
         <project path="prebuilt" name="CyanogenMod/android_prebuilt"/>
-	<project path="vendor/akm" name="vendor_akm" remote="ligux" revision="ics"/>
-	<project path="vendor/broadcom" name="vendor_broadcom" remote="ligux" revision="ics"/>	
-	<project path="vendor/cm" name="vendor_cm" remote="ligux" revision="ics"/>
+	<project path="vendor/akm" name="vendor_akm"  revision="ics"/>
+	<project path="vendor/broadcom" name="vendor_broadcom" revision="ics"/>	
+	<project path="vendor/cm" name="vendor_cm" revision="ics"/>
   	<project path="sdk" name="CyanogenMod/android_sdk" />
-	<project path="system/bluetooth" name="system_bluetooth" remote="ligux" revision="ics"/>
-	<project path="system/core" name="system_core" remote="ligux" revision="ics"/>
-	<project path="system/extras" name="system_extras" remote="ligux" revision="ics"/>
-	<project path="system/media" name="system_media" remote="ligux" revision="ics"/>
-	<project path="system/netd" name="system_netd" remote="ligux" revision="ics"/>
-	<project path="system/su" name="system_su" remote="ligux" revision="ics"/>
-	<project path="system/vold" name="system_vold" remote="ligux" revision="ics"/>
+	<project path="system/bluetooth" name="system_bluetooth" revision="ics"/>
+	<project path="system/core" name="system_core" revision="ics"/>
+	<project path="system/extras" name="system_extras" revision="ics"/>
+	<project path="system/media" name="system_media" revision="ics"/>
+	<project path="system/netd" name="system_netd" revision="ics"/>
+	<project path="system/su" name="system_su" revision="ics"/>
+	<project path="system/vold" name="system_vold" revision="ics"/>
   	<project path="android" name="genokolar/ligux" revision="ics"/>
 	
 	<!-- Reserved for future update check, don't remove this. add by flzyup@ligux.com
